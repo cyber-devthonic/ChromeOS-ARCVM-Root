@@ -69,7 +69,7 @@ fi
 cd /tmp
 echo '[+] Downloading kernel...'
 echo "${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip"
-curl -L -'#' "https://github.com/KaliRootSuperUser/CHROME-OS-ARCVM-ROOTER/releases/download/${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip" -o ksu.zip
+curl -L -'#' "https://github.com/KaliRootSuperUser/CHROME-OS-ARCVM-ROOTER/releases/download/1.0/kernel-ARCVM-x86_64-5.10.239.zip" -o ksu.zip
 
 echo '[+] Decompressing kernel...'
 mkdir -p ksu
